@@ -20,4 +20,13 @@ exec ffmpeg -y -i rtmp://localhost/$app/$name -threads 20 -async 1 -vsync -1
                                -c:v libx264 -flags +global_header -tune zerolatency -preset faster -vprofile main -level 4.0 -x264opts nal-hrd=cbr:force-cfr=1:keyint=60 -b:v 1500k -minrate 1500k -maxrate 1500k -bufsize 1500k -framerate 30 -g 60 -s 1280x720 -acodec copy -r 30 -f tee -map 0 "[f=flv]rtmp://localhost/dash/$name_high|[f=flv]rtmp://localhost/hls/$name_high"  
                                -c:v libx264 -flags +global_header -tune zerolatency -preset faster -vprofile main -level 3.1 -x264opts nal-hrd=cbr:force-cfr=1:keyint=60 -b:v 800k -minrate 800k -maxrate 800k -bufsize 800k -framerate 30 -g 60 -s 854x480 -acodec copy -r 30 -f tee -map 0 "[f=flv]rtmp://localhost/dash/$name_mid|[f=flv]rtmp://localhost/hls/$name_mid"  
                                -c:v libx264 -flags +global_header -tune zerolatency -preset faster -vprofile main -level 3.1 -x264opts nal-hrd=cbr:force-cfr=1:keyint=60 -b:v 500k -minrate 500k -maxrate 500k -bufsize 500k -framerate 30 -g 60 -s 640x360 -acodec copy -r 30 -f tee -map 0 "[f=flv]rtmp://localhost/dash/$name_low|[f=flv]rtmp://localhost/hls/$name_low"
+```  
+附：
+自己用的ffmpeg   
+
+```
+nohup ffmpeg -y -i rtmp://localhost/live/102146 -threads 20 -async 1 -vsync -1   
+	-c:v libx264 -flags +global_header -tune zerolatency -preset faster -vprofile main -level 3.1 -x264opts nal-hrd=cbr:force-cfr=1:keyint=60 -b:v 1800k -minrate 1700k -maxrate 2000k -bufsize 2000k -framerate 30 -g 60 -s 1280x720 -acodec copy -r 30 -f tee -map 0 "[f=flv]rtmp://localhost/live/102146_mid"   
+	-c:v libx264 -flags +global_header -tune zerolatency -preset faster -vprofile main -level 3.1 -x264opts nal-hrd=cbr:force-cfr=1:keyint=60 -b:v 800k -minrate 700k -maxrate 1000k -bufsize 1000k -framerate 30 -g 60 -s 854x480 -acodec copy -r 30 -f tee -map 0 "[f=flv]rtmp://localhost/live/102146_low"
+&
 ```
