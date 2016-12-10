@@ -2,7 +2,7 @@
 layout:        post
 title:         "ffmpeg转码参数"
 subtitle:      "找个地方记录，备忘"
-date:          2016-12-19
+date:          2016-12-09
 author:        "sven"
 header-img:    "img/post-bg-2015.jpg"
 tags:
