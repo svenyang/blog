@@ -4,7 +4,7 @@ title:         "认知的提升以及工作"
 subtitle:      "工作的思考"  
 date:          2021-07-31
 author:        "sven"  
-header-img:    "img/rip.jpg"
+header-img:    "img/368cf202003080209522170.jpeg"
 tags:
     - 随笔
 ---
