@@ -2,7 +2,7 @@
 layout:        post  
 title:         "认知的提升以及工作"  
 subtitle:      "工作的思考"  
-date:          2021-08-01
+date:          2021-07-31
 author:        "sven"  
 header-img:    "img/rip.jpg"
 tags:
