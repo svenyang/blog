@@ -42,8 +42,7 @@ bundle exec jekyll serve
 ```
 jekyll build --safe 
 ```
-but，发现了若干warning以及error（都是无关大雅的本地编译问题），比如``Liquid Warning: Liquid syntax error (line 50): Unexpected character & in "site.duoshuo_share && site.duoshuo_username" in /Users/xxxxxx/Documents/blog/_layouts/post.html``
-
+but，发现了若干warning以及error（都是无关大雅的本地编译问题），比如``Liquid Warning: Liquid syntax error (line 50): Unexpected character & in "site.duoshuo_share && site.duoshuo_username" in /Users/xxxxxx/Documents/blog/_layouts/post.html``  
 **解决之**
 
 6. 继续debug。。  
