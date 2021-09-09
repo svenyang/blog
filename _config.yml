@@ -48,7 +48,7 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: svenyang
+# disqus_username: svenyang
 
 # Duoshuo settings
 duoshuo_username: svenyang
