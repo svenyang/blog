@@ -1,8 +1,7 @@
 # Site settings
 title: 记录下一些琐碎的事情
 SEOTitle: 简单记忆 |  Blog
-# header-img: img/home-bg.jpg
-header-img: http://s1.dgtle.com/dgtle_img/article/2021/09/09/17679202109091726289301_1800_500_w.jpeg
+header-img: img/home-bg.jpg
 email: zhaoyang21cn@gmail.com
 description: "..."
 keyword: ""
