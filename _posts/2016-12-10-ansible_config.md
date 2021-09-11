@@ -58,7 +58,7 @@ ansible依赖**配置文件**和**主机列表**才能运行
 	127.0.0.1 ansible_ssh_user=***  
 	```  
 	
-	> 如果觉得不过瘾，想写多一些参数，看[http://docs.ansible.com/ansible/intro_inventory.html](http://docs.ansible.com/ansible/intro_inventory.html)
+	> 如果觉得不过瘾，想写多一些参数，看[https://docs.ansible.com/ansible/intro_inventory.html](https://docs.ansible.com/ansible/intro_inventory.html)
 	
 
 ### 运行
