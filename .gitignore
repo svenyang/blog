@@ -1,2 +1,4 @@
 # ignore generate html
 _site/
+.jekyll-cache
+.sass-cache
