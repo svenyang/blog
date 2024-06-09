@@ -35,3 +35,9 @@ tags:
 ![image4](https://sven-blog.oss-cn-shanghai.aliyuncs.com/2024-06-09/DSC01235.jpeg)
 ![image4](https://sven-blog.oss-cn-shanghai.aliyuncs.com/2024-06-09/IMG_5418.jpg)
 ![image4](https://sven-blog.oss-cn-shanghai.aliyuncs.com/2024-06-09/IMG_5422.JPG)
+
+## 八卦城（以彬哥拍的八卦城照片作为收尾）
+![image4](https://sven-blog.oss-cn-shanghai.aliyuncs.com/2024-06-09/IMG_5424.jpg)
+PS：管式拌面，八卦城店
+![image4](https://sven-blog.oss-cn-shanghai.aliyuncs.com/2024-06-09/564826c0e1129c6c19d0d6d5fa96e2d4.JPG)
+![image4](https://sven-blog.oss-cn-shanghai.aliyuncs.com/2024-06-09/7f8303567b6f1875ef16d3d20ed7efc2.JPG)
